@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// Create a variable called secret
-// Create a variable called code and set it to 123
-// Check if code is equal to 123, if so, set the variable secret and set it to 'super' and multipy the code by 2
-// We also check if the code is less than 123 and if so, set the variable secret to 'duper' and console log 'secret'
+// Create a variable called secret with no value 
+// Create a variable called code and set it to 123 as a number
+// Check if code is equal to 123, it is, so set the variable secret to 'super' and 
+// set the new value of code to code multiplied by 2
+// We also check if the code is greater than 250 and if so, set the variable secret to 'duper' 
+// We then console log 'secret' to see if the outcome is super or duper 
 
 //CODE
 /*
@@ -70,13 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// Create a variable called isStudent and set it to true
-// Create a variable called age and set it to 34
-// Create a variable called zip and set it to 55407
+// Create a variable called isStudent and set it to true as a boolean
+// Create a variable called age and set it to 34 as a number
+// Create a variable called zip and set it to 55407 as a number
 // Check if the variable isStudent is true AND that zip is greater 80000. We console log 'You're a 
-// student on the West Coast!' if those are both correct. If isStudent is false OR age is less than 30
-// then we console log 'What are your hobbies?'
-// If isStudent is true, we console log 'Welcome to Prime!'
+// student on the West Coast!' if those are both correct. They are not both both correct, so we check if isStudent is false OR age is less than 30
+// If either were correct, we would console log 'What are your hobbies?' but neither are.
+// We then check if isStudent is true, it is, so we console log 'Welcome to Prime!'
 // If none of these if/else statement are correct, we console log 'How about the weather? 
 
 //CODE
@@ -170,14 +172,16 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// we should check if age is greater than or equal to minAge instead of checking if minAage is less than 
+// instructions say to check if age is greater than or equal to minAge instead of checking if minAage is less than 
 // or equal to age
 // should be if (age >= minAge){
-    console.log('enter';)
-}
-  else {
-    console.log ('no entry');
-  }
+//    console.log('enter';)
+// }
+// else {
+//    console.log ('no entry');
+ // }
+
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
