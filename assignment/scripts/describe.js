@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called name and set it to 'Dane' as a string
+// We check if name is Mary. If so, we will console log 'Hi Mary!'
+// The name is not Mary, so we console log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called secret
+// Create a variable called code and set it to 123
+// Check if code is equal to 123, if so, set the variable secret and set it to 'super' and multipy the code by 2
+// We also check if the code is less than 123 and if so, set the variable secret to 'duper' and console log 'secret'
 
 //CODE
 /*
@@ -70,10 +70,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called isStudent and set it to true
+// Create a variable called age and set it to 34
+// Create a variable called zip and set it to 55407
+// Check if the variable isStudent is true AND that zip is greater 80000. We console log 'You're a 
+// student on the West Coast!' if those are both correct. If isStudent is false OR age is less than 30
+// then we console log 'What are your hobbies?'
+// If isStudent is true, we console log 'Welcome to Prime!'
+// If none of these if/else statement are correct, we console log 'How about the weather? 
 
 //CODE
 /*
@@ -129,11 +133,15 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
 /*
+// colorOne should be set to 'blue' and colorTwo should be set to 'red' 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// since mix === true, both colorOne and colorTwo should change to purple
+// should be {colorOne, colorTwo = 'purple';}
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +155,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// we are checking if both statements are correct, so use && instead if ||
+// should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +170,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// we should check if age is greater than or equal to minAge instead of checking if minAage is less than 
+// or equal to age
+// should be if (age >= minAge){
+    console.log('enter';)
+}
+  else {
+    console.log ('no entry');
+  }
 if(minAge <= age) {
   console.log('no entry');
 } else {
